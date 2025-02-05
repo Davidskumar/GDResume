@@ -7,7 +7,8 @@ const projectcards = document.querySelector(".projectcards");
 const projects = [
   {
     title: "Chronicles Of Naux (The Unbound Balance)",
-    cardImage: "assets/images/project-page/CONDemo1.webp",
+    animatedGif:"assets/images/project-page/CONDemo1.webp",
+    cardImage: "assets/images/project-page/CONDemo.png",
     description: "3D Action Adventure(Gravity) Game created in Unreal Engine",
     tagimg: "",
     Previewlink: "https://www.youtube.com/watch?v=N4fesJ7_b0o",
@@ -38,25 +39,29 @@ const projects = [
   }, 
   {
     title: "2DCyberCity-BashByte",
-    cardImage: "assets/images/project-page/DemoVidep.webp",
+    animatedGif:"assets/images/project-page/DemoVidep.webp",
+    cardImage: "assets/images/project-page/DemoVidep.png",
     description: "2D platformer game created in Unity Engine.",
     Githublink: "https://github.com/Davidskumar/2DCyberCity-BashByte",
   },
   {
     title: "Emi Character Animation",
-    cardImage: "assets/images/project-page/EmiAnimationsDemo.webp",
+    animatedGif:"assets/images/project-page/EmiAnimationsDemo.webp",
+    cardImage: "assets/images/project-page/EmiAnimationsDemo.png",
     description: "3D Animations on Unity Engine.",
     Githublink: "https://github.com/Davidskumar/Emi_Animation",
   },
   {
     title: "Colour Bump 3D",
-    cardImage: "assets/images/project-page/ColourBumpRep.webp",
+    animatedGif:"assets/images/project-page/ColourBumpRep.webp",
+    cardImage: "assets/images/project-page/ColourBumpRep.png",
     description: "Mobile Device Hyper-casual Game of Colours",
     Githublink: "https://github.com/Davidskumar/ColourBumpRep",
   },
   {
     title: "Dodge Game",
-    cardImage: "assets/images/project-page/DemoDougeGame.webp",
+    animatedGif:"assets/images/project-page/DemoDougeGame.webp",
+    cardImage: "assets/images/project-page/DemoDougeGame.png",
     description: "Obstacle avoiding single-player Game.",
     Githublink: "https://github.com/Davidskumar/Dodge-Game-Dougetere-",
   },
@@ -83,10 +88,14 @@ const projects = [
 // function for rendering project cards data
 const showCards = () => {
   let output = "";
-  projects.forEach(({ title, cardImage, Previewlink, Githublink }) => {
+  projects.forEach(({ title, cardImage,animatedGif, Previewlink, Githublink }) => {
+    const displayImage = animatedGif ? animatedGif : cardImage;
     output += `       
         <div class="column skill-card card" style="margin: 15px"data-aos="zoom-in-up" data-aos-easing="linear" data-aos-delay="300" data-aos-duration="600" >
-          <div class="wrapper" style="background: url(${cardImage}) center / cover no-repeat;">
+          <div class="wrapper"
+          style="background: url(${cardImage}) center / cover no-repeat;"
+          onmouseover="this.style.backgroundImage='url(${displayImage})'"
+          onmouseout="this.style.backgroundImage='url(${cardImage})'">
             <div class="header">
             </div>
             <div class="data">
