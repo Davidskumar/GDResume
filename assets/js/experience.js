@@ -9,14 +9,14 @@ const exp = [
     cardImage: "assets/images/experience-page/aboutusicon.png",
     place: "Career Objective",
     time: "",
-    desp: "<br><p style="text-align: justify;">Diligent and detail-oriented software engineer with a B.Tech degree specializing in Artificial Intelligence, driven by a passion for crafting innovative and impactful solutions. Equipped with a deep understanding of software development methodologies, automation tools, and a commitment to ensuring quality and performance, I excel at delivering reliable, efficient results. As a game developer, I bring creativity and technical expertise to crafting immersive digital experiences. Adaptive, open-minded, and exceptionally organized, I am dedicated to exceeding expectations and contributing meaningfully to every project I undertake, eager to join a reputable organization to drive success and innovation.</p><br><br><a data-v-4877bd6a href='https://drive.google.com/file/d/1POrAu-vQha1f_XL-VMUkbcABaewDWAfv/view?usp=sharing' target='_blank'><img src='assets/images/experience-page/downloadico.jpg' height='20' width='20' alt='download img'/>Download as pdf mb <a>",
+    desp: "<br><p style='text-align: justify;'>Diligent and detail-oriented software engineer with a B.Tech degree specializing in Artificial Intelligence, driven by a passion for crafting innovative and impactful solutions. Equipped with a deep understanding of software development methodologies, automation tools, and a commitment to ensuring quality and performance, I excel at delivering reliable, efficient results. As a game developer, I bring creativity and technical expertise to crafting immersive digital experiences. Adaptive, open-minded, and exceptionally organized, I am dedicated to exceeding expectations and contributing meaningfully to every project I undertake, eager to join a reputable organization to drive success and innovation.</p><br><br><a data-v-4877bd6a href='https://drive.google.com/file/d/1POrAu-vQha1f_XL-VMUkbcABaewDWAfv/view?usp=sharing' target='_blank'><img src='assets/images/experience-page/downloadico.jpg' height='20' width='20' alt='download img'/>Download as pdf mb <a>",
   },
   {
     title: "Skills",
     cardImage: "assets/images/experience-page/skillicon.png",
     place: "Technical",
     time: "",
-    desp:"<ul style='list-style-type:disc'><li>Python, C#, C++, C Programming, Java/JavaScript/JQuery/AngularJS/Node.js, HTML/CSS </li><li>Data Analytics(ML & DL), Prompt Engineering, LLMs</li><li>SQL, MongoDB, Firebase</li><li>Software Development Life Cycle with Real-Time Data Processing</li></li><li>Unity Engine, Unreal Engine, Blender, Adobe Photoshop, Zbrush, Android studio</li></ul>",
+    desp:"<p><ul style='list-style-type:disc'><li>Python, C#, C++, C Programming, Java/JavaScript/JQuery/AngularJS/Node.js, HTML/CSS </li><li>Data Analytics(ML & DL), Prompt Engineering, LLMs</li><li>SQL, MongoDB, Firebase</li><li>Software Development Life Cycle with Real-Time Data Processing</li></li><li>Unity Engine, Unreal Engine, Blender, Adobe Photoshop, Zbrush, Android studio</li></ul></p>",
   },
   {
     title: "Software Developer Intern",
