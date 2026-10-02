@@ -16,7 +16,7 @@ const exp = [
     cardImage: "assets/images/experience-page/skillicon.png",
     place: "Technical",
     time: "",
-    desp:"<p><ul style='list-style-type:disc'><li>Python, C#, C++, C Programming, Java/JavaScript/JQuery/AngularJS/Node.js, HTML/CSS </li><li>Data Analytics(ML & DL), Prompt Engineering, LLMs</li><li>SQL, MongoDB, Firebase</li><li>Software Development Life Cycle with Real-Time Data Processing</li></li><li>Unity Engine, Unreal Engine, Blender, Adobe Photoshop, Zbrush, Android studio</li></ul></p>",
+    desp:"<p style='text-align: justify;'><ul style='list-style-type:disc'><li>Python, C#, C++, C Programming, Java/JavaScript/JQuery/AngularJS/Node.js, HTML/CSS </li><li>Data Analytics(ML & DL), Prompt Engineering, LLMs</li><li>SQL, MongoDB, Firebase</li><li>Software Development Life Cycle with Real-Time Data Processing</li></li><li>Unity Engine, Unreal Engine, Blender, Adobe Photoshop, Zbrush, Android studio</li></ul></p>",
   },
   {
     title: "Software Developer Intern",
